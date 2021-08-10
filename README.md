@@ -6,6 +6,10 @@ A [Flarum](http://flarum.org) extension. Fetch last 3 youtube videos from youtub
 
 ![11](https://user-images.githubusercontent.com/79002016/128869390-947be3b5-bf7d-4de2-b072-0d1821421173.png)
 
+## Important
+
+Youtube serve video thumbnail in max resolutions only if the width of your video is equal or more than 321px, under that width, the images is in low quality.
+
 
 ## Installation
 
