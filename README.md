@@ -1,4 +1,4 @@
-# Youtube Video Feed
+# Youtube Video Feed Widget
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/justoverclock/youtube-video-feed.svg)](https://packagist.org/packages/justoverclock/youtube-video-feed) [![Total Downloads](https://img.shields.io/packagist/dt/justoverclock/youtube-video-feed.svg)](https://packagist.org/packages/justoverclock/youtube-video-feed)
 
