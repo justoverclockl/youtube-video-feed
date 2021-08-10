@@ -23,12 +23,10 @@ composer require justoverclock/youtube-video-feed:"*"
 
 ```sh
 composer update justoverclock/youtube-video-feed:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
 ## Links
 
 - [Packagist](https://packagist.org/packages/justoverclock/youtube-video-feed)
-- [GitHub](https://github.com/justoverclock/youtube-video-feed)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/justoverclockl/youtube-video-feed)
