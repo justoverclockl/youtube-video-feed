@@ -3,14 +3,14 @@ import Widgets from 'flarum/extensions/afrux-forum-widgets-core/common/extend/Wi
 import YoutubeFeedWidget from './components/YoutubeFeedWidget';
 
 export default function (app) {
-  new Widgets()
-    .add({
-      key: 'YtFeed',
-      component: YoutubeFeedWidget,
-      isDisabled: false,
-      isUnique: true,
-      placement: 'end',
-      position: 1,
-    })
-    .extend(app, 'justoverclock-youtube-video-feed');
+    new Widgets()
+        .add({
+            key: 'YtFeed',
+            component: YoutubeFeedWidget,
+            isDisabled: false,
+            isUnique: true,
+            placement: 'end',
+            position: 1,
+        })
+        .extend(app, 'justoverclock-youtube-video-feed');
 }

@@ -11,7 +11,9 @@
 
 namespace Justoverclock\YtVideoFeed;
 
+
 use Flarum\Extend;
+use Flarum\Api\Event\Serializing;
 
 return [
     (new Extend\Frontend('forum'))
@@ -21,4 +23,11 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less'),
     new Extend\Locales(__DIR__.'/locale'),
+    (new Extend\Settings)
+        ->serializeToForum('justoverclock-youtube-video-feed.ytWidth', 'justoverclock-youtube-video-feed.ytWidth')
+        ->serializeToForum('justoverclock-youtube-video-feed.ytHeight', 'justoverclock-youtube-video-feed.ytHeight')
+        ->serializeToForum('justoverclock-youtube-video-feed.ytChannelId', 'justoverclock-youtube-video-feed.ytChannelId')
+        ->serializeToForum('justoverclock-youtube-video-feed.showTitle', 'justoverclock-youtube-video-feed.showTitle', 'boolval', true),
+
+
 ];

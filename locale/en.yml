@@ -1,7 +1,11 @@
 justoverclock-youtube-video-feed:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n.html#appendix-a-standard-key-format
   admin:
-    my_cool_key: My Cool Key
-
+    ytWidth: Video preview Width
+    ytWidth-help: put the width of your video thumbnail (in pixel)
+    ytHeight: Video preview Height
+    ytHeight-help: put the height of your video thumbnail (in pixel)
+    ytChannelId: Youtube Channel ID
+    ytChannelId-help: your channel id (e.g. "UCc7SyfF1ioDP2QwYGe0S-pg")
+    showTitle: Show Widget Title
   forum:
+    title: Last Youtube Videos
