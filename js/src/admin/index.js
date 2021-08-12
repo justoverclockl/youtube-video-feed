@@ -24,7 +24,7 @@ app.initializers.add('justoverclock/youtube-video-feed', () => {
             name: 'justoverclock-youtube-video-feed.ytChannelId',
             label: app.translator.trans('justoverclock-youtube-video-feed.admin.ytChannelId'),
             help: app.translator.trans('justoverclock-youtube-video-feed.admin.ytChannelId-help'),
-            type: 'number',
+            type: 'text',
         })
         .registerSetting({
             setting: 'justoverclock-youtube-video-feed.showTitle',
