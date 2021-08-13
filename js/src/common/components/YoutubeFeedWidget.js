@@ -19,7 +19,7 @@ export default class YoutubeFeedWidget extends Widget {
                 var videoNumber = iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0;
                 var link = data.items[videoNumber].link;
                 var id = link.substr(link.indexOf('=') + 1);
-                iframe.setAttribute('src', 'https://youtube.com/embed/' + id + '?controls=1&autoplay=1');
+                iframe.setAttribute('src', 'https://youtube.com/embed/' + id + '?controls=1&autoplay=0');
             });
         }
 
